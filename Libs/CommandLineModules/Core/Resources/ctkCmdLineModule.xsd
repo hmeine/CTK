@@ -398,7 +398,7 @@
       <xsd:extension base="multipleType">
         <xsd:attribute name="fileExtensions" type="xsd:string">
           <xsd:annotation>
-            <xsd:documentation>A comma separated list of allowed file extensions.</xsd:documentation>
+            <xsd:documentation>A comma separated list of allowed file extensions (e.g. ".mrml").</xsd:documentation>
           </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="type">
@@ -428,7 +428,7 @@
       <xsd:extension base="multipleType">
         <xsd:attribute name="fileExtensions" type="xsd:string">
           <xsd:annotation>
-            <xsd:documentation>A comma separated list of allowed file extensions (e.g. "nrrd,mhd").</xsd:documentation>
+            <xsd:documentation>A comma separated list of allowed file extensions (e.g. ".nrrd,.mhd").</xsd:documentation>
           </xsd:annotation>
         </xsd:attribute>
       </xsd:extension>
