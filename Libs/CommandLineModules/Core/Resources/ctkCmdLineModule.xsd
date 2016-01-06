@@ -119,7 +119,7 @@
         </xsd:annotation>
       </xsd:element>
         
-      <xsd:element name="description" type="xsd:string">
+      <xsd:element minOccurs="0" name="description" type="xsd:string">
         <xsd:annotation>
           <xsd:documentation>A description of this parameter group.</xsd:documentation>
         </xsd:annotation>
